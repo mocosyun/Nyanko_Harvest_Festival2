@@ -155,7 +155,7 @@ var Item = cc.Sprite.extend({
   ctor: function() {
     this._super();
     //ランダムに爆弾と果物を生成する
-    if (Math.random() < 0.5) {
+    if (Math.random() < 0.2) {
       this.initWithFile(res.bug_png);
       this.isBomb = true;
     } else {
